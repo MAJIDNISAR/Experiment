@@ -15,7 +15,7 @@ class IntroCard extends React.Component {
   onMouseOver(iconName) {
     clearTimeout(this.timeout);
     this.timeout = setTimeout(
-      function() {
+      function () {
         this.setState({ word: iconName });
       }.bind(this),
       100
@@ -25,7 +25,7 @@ class IntroCard extends React.Component {
   onMouseOut() {
     // Don't leave, if they enter a different active state quickly.
     this.timeout = setTimeout(
-      function() {
+      function () {
         this.setState({ word: this.props.baseWord });
       }.bind(this),
       200
@@ -38,7 +38,7 @@ class IntroCard extends React.Component {
         <Badge word={this.state.word} />
         <h1>I'm Jen Luker</h1>
         <p>Developer and knitter.<br />
-        Find me on:</p>
+          Find me on:</p>
         <div className="iconBlock">
           <Icon
             name="talks"
@@ -48,32 +48,32 @@ class IntroCard extends React.Component {
           />
           <Icon
             name="twitter"
-            href="https://twitter.com/knitcodemonkey"
+            href="https://twitter.com/MAJIDNISAR"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
           />
           <Icon
             name="github"
-            href="https://github.com/knittingcodemonkey"
+            href="https://github.com/MAJIDNISAR"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
           />
           <Icon
             name="linkedin"
-            href="https://www.linkedin.com/in/knitcodemonkey/"
-            onMouseOverEvent={this.onMouseOver.bind(this)}
-            onMouseOutEvent={this.onMouseOut.bind(this)}
-            /> 
-          <Icon
-            name="codePen"
-            href="https://codepen.io/knitcodemonkey/"
+            href="https://www.linkedin.com/in/MAJIDNISAR/"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
           />
-          
           <Icon
-            name="knitting"
-            href="https://github.com/knittingcodemonkey"
+            name="codePen"
+            href="https://codepen.io/MAJIDNISAR/"
+            onMouseOverEvent={this.onMouseOver.bind(this)}
+            onMouseOutEvent={this.onMouseOut.bind(this)}
+          />
+
+          <Icon
+            name="photography"
+            href="https://github.com/MAJIDNISAR"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
           />
