@@ -10,19 +10,19 @@ export default class Talks extends React.Component {
       talks: []
     };
   }
-  
+
   componentWillMount() {
     let that = this;
     axios
       .get(
-        "https://raw.githubusercontent.com/knittingcodemonkey/presentation-proposals/master/README.md"
+      "https://raw.githubusercontent.com/majidnisar/majidnisar.github.io/master/README.md"
       )
-      .then(function(response) {
+      .then(function (response) {
         const talks = that.state.talks;
         talks.push(response.data);
         that.setState({ talks });
       })
-      .catch(function(error) {
+      .catch(function (error) {
         console.log(error);
       });
   }
@@ -32,21 +32,21 @@ export default class Talks extends React.Component {
     converter.setFlavor("github");
     return (
       <div className="beautiful">
-      <div className="contentBlock">
-        <IconBlock />
-        <div className="content talks">
-          {this.state.talks.map((talk, idx) => {
-            return (
-              <div
-                key={"talk" + idx}
-                className="talk"
-                dangerouslySetInnerHTML={{ __html: converter.makeHtml(talk) }}
-              />
-            );
-          })}
+        <div className="contentBlock">
+          <IconBlock />
+          <div className="content talks">
+            {this.state.talks.map((talk, idx) => {
+              return (
+                <div
+                  key={"talk" + idx}
+                  className="talk"
+                  dangerouslySetInnerHTML={{ __html: converter.makeHtml(talk) }}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
-        </div>
     );
   }
 };
