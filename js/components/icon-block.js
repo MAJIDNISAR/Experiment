@@ -24,32 +24,32 @@ export default class IconBlock extends React.Component {
         />
         <Icon
           name="twitter"
-          href="https://twitter.com/MAJIDNISAR"
+          href="https://twitter.com/majidnisar"
           onMouseOverEvent={() => { return; }}
           onMouseOutEvent={() => { return; }}
         />
         <Icon
           name="github"
-          href="https://github.com/MAJIDNISAR"
+          href="https://github.com/majidnisar"
           onMouseOverEvent={() => { return; }}
           onMouseOutEvent={() => { return; }}
         />
         <Icon
           name="linkedin"
-          href="https://www.linkedin.com/in/MAJIDNISAR"
+          href="https://www.linkedin.com/in/majidnisar/"
           onMouseOverEvent={() => { return; }}
           onMouseOutEvent={() => { return; }}
         />
 
         <Icon
           name="codePen"
-          href="https://codepen.io/MAJIDNISAR"
+          href="https://codepen.io/majidnisar"
           onMouseOverEvent={() => { return; }}
           onMouseOutEvent={() => { return; }}
         />
         <Icon
-          name="photography"
-          href="https://github.com/MAJIDNISAR"
+          name="hobbyist"
+          href="https://github.com/majidnisar"
           onMouseOverEvent={() => { return; }}
           onMouseOutEvent={() => { return; }}
         />

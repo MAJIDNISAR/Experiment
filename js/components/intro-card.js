@@ -36,8 +36,8 @@ class IntroCard extends React.Component {
     return (
       <div className="card">
         <Badge word={this.state.word} />
-        <h1>I'm Jen Luker</h1>
-        <p>Developer and knitter.<br />
+        <h1>I am Majid Nisar</h1>
+        <p>Developer, Project Manager/ Head Software Development & DevOps. <br /> and <br />Hobbyist Writer,Poet, Photographer.<br />
           Find me on:</p>
         <div className="iconBlock">
           <Icon

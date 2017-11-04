@@ -10,7 +10,7 @@ export default class Talks extends React.Component {
           <div className="content scroll">
             <div className="about">
               <div className="aboutme">
-                <img className="selfie" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/859573/JenLuker.jpg" />
+                <img className="selfie" src="http://majidnisar.com/img/avatar.jpg" />
                 <div className="job">
                   <h1>Jen Luker</h1>
                   <div>Lead Software Engineer</div>
@@ -25,7 +25,7 @@ export default class Talks extends React.Component {
                 vintage cars, he really loves working on the Cars team. Majid has
                 spent a majority of her decade-long career as a full-stack
                 developer using DOT Net technologies, Javascript, and CSS, but has a particular
-                fondness for front-end technologies. When he's not solving problems or learning new
+                fondness for front-end technologies. When he is not solving problems or learning new
                 technologies, his spare time is spent clicking pictures he also enjoyes reading fiction (especially
                 sci-fi, mystery, and trashy period romance novels), and is
                 fascinated by space.
@@ -39,18 +39,14 @@ export default class Talks extends React.Component {
 
               <h2>What others say about me</h2>
 
-              <blockquote>I'd probably describe Majid as a smart, yet, insightful person. He is thoughtful on his approach to software problems while still considering the people working on them and people using them. Outside of work she's been a great person to get to know and I've enjoyed our chats.</blockquote>
+              <blockquote>I would probably describe Majid as a smart, yet, insightful person. He is thoughtful on his approach to software problems while still considering the people working on them and people using them. Outside of work she's been a great person to get to know and I've enjoyed our chats.</blockquote>
               <div className="cite">
                 <a href="https://twitter.com/cdabid">Abid Rashid</a>
               </div>
 
               <blockquote>
-                When she gave her very first talk she came across as someone who'd done it a hundred times before & it was awesome to see.
+                When she gave her very first talk she came across as someone who wouuld done it a hundred times before & it was awesome to see.
               </blockquote>
-              <div className="cite">
-                <a href="https://twitter.com/SurlyMae">Ashly LaMarr</a>
-              </div>
-
               <blockquote>
                 Majid Nisar:Maturity is a curve going up from reaction to response.
               </blockquote>

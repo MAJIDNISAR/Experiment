@@ -9099,12 +9099,12 @@
 	        _react2.default.createElement(
 	          "h1",
 	          null,
-	          "I'm Jen Luker"
+	          "Hi, I'm Majid Nisar Developer, Project Manager/ Head Software Development & DevOps. <br/> and <br/>Hobbyist Writer,Poet, Photographer"
 	        ),
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "Developer and knitter.",
+	          "Developer, .",
 	          _react2.default.createElement("br", null),
 	          "Find me on:"
 	        ),
@@ -9119,31 +9119,31 @@
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "twitter",
-	            href: "https://twitter.com/knitcodemonkey",
+	            href: "https://twitter.com/MAJIDNISAR",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "github",
-	            href: "https://github.com/knittingcodemonkey",
+	            href: "https://github.com/MAJIDNISAR",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "linkedin",
-	            href: "https://www.linkedin.com/in/knitcodemonkey/",
+	            href: "https://www.linkedin.com/in/MAJIDNISAR/",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "codePen",
-	            href: "https://codepen.io/knitcodemonkey/",
+	            href: "https://codepen.io/MAJIDNSIAR/",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
-	            name: "knitting",
-	            href: "https://github.com/knittingcodemonkey",
+	            name: "Hobbyist Writer, Poet & Photography",
+	            href: "https://github.com/MAJIDNISAR",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          })
@@ -9511,7 +9511,7 @@
 	    key: "componentWillMount",
 	    value: function componentWillMount() {
 	      var that = this;
-	      _axios2.default.get("https://raw.githubusercontent.com/knittingcodemonkey/presentation-proposals/master/README.md").then(function (response) {
+	      _axios2.default.get("https://raw.githubusercontent.com/MAJIDNISAR/MAJIDNISAR.GITHUB.IO/master/README.md").then(function (response) {
 	        var talks = that.state.talks;
 	        talks.push(response.data);
 	        that.setState({ talks: talks });
@@ -11409,7 +11409,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "twitter",
-	          href: "https://twitter.com/knitcodemonkey",
+	          href: "https://twitter.com/MAJIDNISAR",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11419,7 +11419,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "github",
-	          href: "https://github.com/knittingcodemonkey",
+	          href: "https://github.com/MAJIDNISAR",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11429,7 +11429,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "linkedin",
-	          href: "https://www.linkedin.com/in/knitcodemonkey/",
+	          href: "https://www.linkedin.com/in/MAJIDNISAR/",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11439,7 +11439,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "codePen",
-	          href: "https://codepen.io/knitcodemonkey",
+	          href: "https://codepen.io/MAJIDNISAR",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11448,8 +11448,8 @@
 	          }
 	        }),
 	        _react2.default.createElement(_icon2.default, {
-	          name: "knitting",
-	          href: "https://github.com/knittingcodemonkey",
+	          name: "Hobbyist",
+	          href: "https://github.com/majidnisar",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11552,7 +11552,7 @@
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "Jen Luker is a Lead software engineer at DDM working on the KSL.com Classifieds; a Northern Utah classifieds site that beats the national brand on listings and traffic. While she enjoys vintage cars, she really loves working on the Cars team. Jen has spent a majority of her decade-long career as a full-stack developer using PHP, Javascript, and CSS, but has a particular fondness for front-end technologies. She is a leader on front-end teams, trains others in Reactjs, and build apps in React Native. When she's not solving problems or learning new technologies, her spare time is spent spinning yarn from raw wool and knitting; she's even been known to 3D print her own tools for the job. She also enjoyes reading fiction (especially sci-fi, mystery, and trashy period romance novels), and is fascinated by space. She recently spoke at UtahJS2017, kicking off her public speaking career."
+	                "Majid Nisar is   Project Manager/ Head  software Development & Devops at E-Resolute Consultancy and Services (P) Ltd. While he enjoys vintage cars, he really loves working on the Cars team. Majid has spent a majority of her decade-long career as a full-stack developer using DOT Net technologies, Javascript, and CSS, but has a particular fondness for front-end technologies. When he is not solving problems or learning new technologies, his spare time is spent clicking pictures he also enjoyes reading fiction (especially sci-fi, mystery, and trashy period romance novels), and is"
 	              ),
 	              _react2.default.createElement(
 	                "h2",
@@ -11562,7 +11562,7 @@
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "I have four kids, two cats and a wonderful husband, all of whom understand my need to speak in programming jargon while knitting something to calm my overclocked mind."
+	                "I am single, one nephew and Neice and a wonderful family , all of whom understand my need to learn more , grow more every day ,something to calm my overclocked mind."
 	              ),
 	              _react2.default.createElement(
 	                "h2",
@@ -11579,8 +11579,8 @@
 	                { className: "cite" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { href: "https://twitter.com/geekygirlsarah" },
-	                  "Sarah Withee"
+	                  { href: "https://twitter.com/ilu_shah" },
+	                  "Shah Ilyas"
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -11589,27 +11589,10 @@
 	                "When she gave her very first talk she came across as someone who'd done it a hundred times before & it was awesome to see."
 	              ),
 	              _react2.default.createElement(
-	                "div",
-	                { className: "cite" },
-	                _react2.default.createElement(
-	                  "a",
-	                  { href: "https://twitter.com/SurlyMae" },
-	                  "Ashly LaMarr"
-	                )
-	              ),
-	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "Jen Luker: Upending the patriarchy one used Kia at a time."
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "cite" },
-	                _react2.default.createElement(
-	                  "a",
-	                  { href: "https://twitter.com/holtbt" },
-	                  "Brian Holt"
-	                )
+	                "Majid Nisar:Maturity is a curve going up from reaction to response."
+	              )
 	              )
 	            )
 	          )
